@@ -1,6 +1,6 @@
 package com.xxgg.blog.service;
 
-import com.xxgg.blog.model.po.Friendlink;
+import com.xxgg.blog.model.po.Link;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 /**
@@ -9,8 +9,8 @@ import com.baomidou.mybatisplus.extension.service.IService;
  * </p>
  *
  * @author 先谢郭嘉
- * @since 2020-11-22
+ * @since 2020-12-01
  */
-public interface IFriendlinkService extends IService<Friendlink> {
+public interface ILinkService extends IService<Link> {
 
 }

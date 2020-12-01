@@ -1,6 +1,6 @@
 package com.xxgg.blog.mapper;
 
-import com.xxgg.blog.model.po.Friendlink;
+import com.xxgg.blog.model.po.Link;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
 /**
@@ -9,8 +9,8 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
  * </p>
  *
  * @author 先谢郭嘉
- * @since 2020-11-22
+ * @since 2020-12-01
  */
-public interface FriendlinkMapper extends BaseMapper<Friendlink> {
+public interface LinkMapper extends BaseMapper<Link> {
 
 }

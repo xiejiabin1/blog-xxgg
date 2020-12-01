@@ -11,10 +11,10 @@ import org.springframework.web.bind.annotation.RestController;
  * </p>
  *
  * @author 先谢郭嘉
- * @since 2020-11-22
+ * @since 2020-12-01
  */
 @RestController
-@RequestMapping("/friendlink")
-public class FriendlinkController {
+@RequestMapping("/link")
+public class LinkController {
 
 }
