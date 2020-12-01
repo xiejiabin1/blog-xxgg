@@ -54,25 +54,34 @@ public class ResultJSON<T> implements Serializable {
     /**
      * 请求成功没数据
      */
-    public static<T> ResultJSON<T> nullData(){
-        return new ResultJSON<T>(ResultCodeEnum.NULL_DATA.getFlag(),
-                ResultCodeEnum.NULL_DATA.getCode(),
-                ResultCodeEnum.NULL_DATA.getMessage());
+    public static<T> ResultJSON<T> success(){
+        return new ResultJSON<T>(ResultCodeEnum.SUCCESS.getFlag(),
+                ResultCodeEnum.SUCCESS.getCode(),
+                ResultCodeEnum.SUCCESS.getMessage());
     }
 
     /**
      * 请求失败
      */
+    public static<T> ResultJSON<T> fail(T data){
+        return new ResultJSON<T>(ResultCodeEnum.FAIL.getFlag(),
+                ResultCodeEnum.FAIL.getCode(),
+                ResultCodeEnum.FAIL.getMessage(),data);
+    }
+
+    /**
+     * 系统异常
+     */
     public static<T> ResultJSON<T> error(T data){
         return new ResultJSON<T>(ResultCodeEnum.ERROR.getFlag(),
                 ResultCodeEnum.ERROR.getCode(),
-                ResultCodeEnum.ERROR.getMessage());
+                ResultCodeEnum.ERROR.getMessage(),data);
     }
 
-//    public ResultJSON<T> data(T data){
-//        this.setData(data);
-//        return this;
-//    }
+    public ResultJSON<T> data(T data){
+        this.setData(data);
+        return this;
+    }
     public ResultJSON<T> message(String message){
         this.setMessage(message);
         return this;

@@ -9,9 +9,9 @@ import lombok.Getter;
  */
 @Getter
 public enum  ResultCodeEnum {
-    SUCCESS(true, "1", "请求成功"),
-    NULL_DATA(true, "0", "请求数据为空"),
-    ERROR(false, "-1", "请求异常");
+    SUCCESS(true, "0", "成功"),
+    FAIL(false, "1", "失败"),
+    ERROR(false, "-1", "系统异常");
 
     private Boolean flag;       //是否成功
     private String code;        //状态码
