@@ -3,6 +3,7 @@ package com.xxgg.blog.config;
 import com.alibaba.druid.pool.DruidDataSource;
 import com.alibaba.druid.support.http.StatViewServlet;
 import com.alibaba.druid.support.http.WebStatFilter;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.boot.web.servlet.FilterRegistrationBean;
 import org.springframework.boot.web.servlet.ServletRegistrationBean;
@@ -19,6 +20,12 @@ import javax.sql.DataSource;
  **/
 @Configuration
 public class DruidConfig {
+
+    @Value("${spring.datasource.druid.login.loginUsername}")
+    private String loginUsername;
+
+    @Value("${spring.datasource.druid.login.loginPassword}")
+    private String loginPassword;
     /**
      * 配置参数，不然application.yml中的配置不生效
      * @return
@@ -41,8 +48,8 @@ public class DruidConfig {
         // IP黑名单(共同存在时，deny优先于allow)
         //servletRegistrationBean.addInitParameter("deny", "127.0.0.1");
         //控制台管理用户
-        servletRegistrationBean.addInitParameter("loginUsername", "xxgg");
-        servletRegistrationBean.addInitParameter("loginPassword", "430423");
+        servletRegistrationBean.addInitParameter("loginUsername", loginUsername);
+        servletRegistrationBean.addInitParameter("loginPassword", loginPassword);
         //是否能够重置数据 禁用HTML页面上的“Reset All”功能
         servletRegistrationBean.addInitParameter("resetEnable", "false");
         return servletRegistrationBean;

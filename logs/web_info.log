@@ -52,3 +52,78 @@
 2021-02-03 11:10:08.257 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
 2021-02-03 11:10:08.273 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
 2021-02-03 11:10:08.382 [main] INFO  com.xxgg.blog.BlogApplication - Started BlogApplication in 2.676 seconds (JVM running for 3.277)
+2021-02-03 15:05:33.290 [main] INFO  com.xxgg.blog.BlogApplication - Starting BlogApplication on DESKTOP-AUBNEG7 with PID 32 (D:\space\java\blog-xxgg\target\classes started by 25012 in D:\space\java\blog-xxgg)
+2021-02-03 15:05:33.290 [main] INFO  com.xxgg.blog.BlogApplication - The following profiles are active: druid
+2021-02-03 15:05:34.108 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2021-02-03 15:05:34.108 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2021-02-03 15:05:34.108 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-02-03 15:05:34.108 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2021-02-03 15:05:34.161 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-02-03 15:05:34.161 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 833 ms
+2021-02-03 15:05:34.192 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2021-02-03 15:05:34.192 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+2021-02-03 15:05:35.044 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-02-03 15:05:35.105 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-03 15:05:35.234 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2021-02-03 15:05:35.246 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2021-02-03 15:05:35.246 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-02-03 15:05:35.254 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-02-03 15:05:35.274 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-02-03 15:05:35.371 [main] INFO  com.xxgg.blog.BlogApplication - Started BlogApplication in 2.429 seconds (JVM running for 2.89)
+2021-02-03 15:05:49.646 [http-nio-8080-exec-5] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-03 15:05:49.647 [http-nio-8080-exec-5] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-02-03 15:05:49.651 [http-nio-8080-exec-5] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2021-02-03 15:08:54.860 [main] INFO  com.xxgg.blog.BlogApplication - Starting BlogApplication on DESKTOP-AUBNEG7 with PID 14020 (D:\space\java\blog-xxgg\target\classes started by 25012 in D:\space\java\blog-xxgg)
+2021-02-03 15:08:54.860 [main] INFO  com.xxgg.blog.BlogApplication - The following profiles are active: druid
+2021-02-03 15:08:55.615 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2021-02-03 15:08:55.615 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2021-02-03 15:08:55.615 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-02-03 15:08:55.615 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2021-02-03 15:08:55.662 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-02-03 15:08:55.662 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 770 ms
+2021-02-03 15:08:55.709 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2021-02-03 15:08:55.709 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+2021-02-03 15:08:56.449 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-02-03 15:08:56.500 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-03 15:08:56.595 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2021-02-03 15:08:56.610 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2021-02-03 15:08:56.610 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-02-03 15:08:56.626 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-02-03 15:08:56.642 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-02-03 15:08:56.726 [main] INFO  com.xxgg.blog.BlogApplication - Started BlogApplication in 2.158 seconds (JVM running for 2.588)
+2021-02-03 15:09:35.469 [main] INFO  com.xxgg.blog.BlogApplication - Starting BlogApplication on DESKTOP-AUBNEG7 with PID 9932 (D:\space\java\blog-xxgg\target\classes started by 25012 in D:\space\java\blog-xxgg)
+2021-02-03 15:09:35.469 [main] INFO  com.xxgg.blog.BlogApplication - The following profiles are active: druid
+2021-02-03 15:09:36.217 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2021-02-03 15:09:36.217 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2021-02-03 15:09:36.217 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-02-03 15:09:36.217 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2021-02-03 15:09:36.271 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-02-03 15:09:36.271 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 771 ms
+2021-02-03 15:09:36.302 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2021-02-03 15:09:36.302 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+2021-02-03 15:09:37.041 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-02-03 15:09:37.088 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-03 15:09:37.188 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2021-02-03 15:09:37.204 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2021-02-03 15:09:37.204 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-02-03 15:09:37.204 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-02-03 15:09:37.220 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-02-03 15:09:37.304 [main] INFO  com.xxgg.blog.BlogApplication - Started BlogApplication in 2.123 seconds (JVM running for 2.549)
+2021-02-03 15:10:19.074 [main] INFO  com.xxgg.blog.BlogApplication - Starting BlogApplication on DESKTOP-AUBNEG7 with PID 9352 (D:\space\java\blog-xxgg\target\classes started by 25012 in D:\space\java\blog-xxgg)
+2021-02-03 15:10:19.074 [main] INFO  com.xxgg.blog.BlogApplication - The following profiles are active: druid
+2021-02-03 15:10:19.861 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2021-02-03 15:10:19.861 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2021-02-03 15:10:19.861 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-02-03 15:10:19.861 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2021-02-03 15:10:19.917 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-02-03 15:10:19.917 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 812 ms
+2021-02-03 15:10:19.949 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2021-02-03 15:10:19.951 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+2021-02-03 15:10:20.720 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-02-03 15:10:20.776 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-03 15:10:20.895 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2021-02-03 15:10:20.909 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2021-02-03 15:10:20.910 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-02-03 15:10:20.918 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-02-03 15:10:20.934 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-02-03 15:10:21.027 [main] INFO  com.xxgg.blog.BlogApplication - Started BlogApplication in 2.241 seconds (JVM running for 2.667)
