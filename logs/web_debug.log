@@ -748,3 +748,378 @@
 2020-11-28 22:47:09.772 [main] DEBUG s.d.s.w.r.operation.OperationResponseClassReader - Setting spring response class to: ModelAndView
 2020-11-28 22:47:09.772 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:ModelAndView
 2020-11-28 22:47:09.772 [main] DEBUG s.d.swagger.readers.operation.OperationAuthReader - Authorization count 0 for method errorHtml
+2021-02-03 11:10:06.195 [main] DEBUG com.xxgg.blog.BlogApplication - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+2021-02-03 11:10:06.805 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2021-02-03 11:10:06.820 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\space\java\blog-xxgg\target\classes\com\xxgg\blog\mapper\BlogMapper.class]
+2021-02-03 11:10:06.820 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\space\java\blog-xxgg\target\classes\com\xxgg\blog\mapper\BlogTypeMapper.class]
+2021-02-03 11:10:06.820 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\space\java\blog-xxgg\target\classes\com\xxgg\blog\mapper\CommentMapper.class]
+2021-02-03 11:10:06.820 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\space\java\blog-xxgg\target\classes\com\xxgg\blog\mapper\LinkMapper.class]
+2021-02-03 11:10:06.820 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\space\java\blog-xxgg\target\classes\com\xxgg\blog\mapper\LogMapper.class]
+2021-02-03 11:10:06.820 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\space\java\blog-xxgg\target\classes\com\xxgg\blog\mapper\MessageMapper.class]
+2021-02-03 11:10:06.820 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\space\java\blog-xxgg\target\classes\com\xxgg\blog\mapper\PermissionMapper.class]
+2021-02-03 11:10:06.820 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\space\java\blog-xxgg\target\classes\com\xxgg\blog\mapper\PictureMapper.class]
+2021-02-03 11:10:06.820 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\space\java\blog-xxgg\target\classes\com\xxgg\blog\mapper\ProgramMapper.class]
+2021-02-03 11:10:06.820 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\space\java\blog-xxgg\target\classes\com\xxgg\blog\mapper\RoleMapper.class]
+2021-02-03 11:10:06.820 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\space\java\blog-xxgg\target\classes\com\xxgg\blog\mapper\UserMapper.class]
+2021-02-03 11:10:06.820 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'blogMapper' and 'com.xxgg.blog.mapper.BlogMapper' mapperInterface
+2021-02-03 11:10:06.820 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'blogMapper'.
+2021-02-03 11:10:06.820 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'blogTypeMapper' and 'com.xxgg.blog.mapper.BlogTypeMapper' mapperInterface
+2021-02-03 11:10:06.820 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'blogTypeMapper'.
+2021-02-03 11:10:06.820 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'commentMapper' and 'com.xxgg.blog.mapper.CommentMapper' mapperInterface
+2021-02-03 11:10:06.820 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'commentMapper'.
+2021-02-03 11:10:06.820 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'linkMapper' and 'com.xxgg.blog.mapper.LinkMapper' mapperInterface
+2021-02-03 11:10:06.820 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'linkMapper'.
+2021-02-03 11:10:06.820 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'logMapper' and 'com.xxgg.blog.mapper.LogMapper' mapperInterface
+2021-02-03 11:10:06.820 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'logMapper'.
+2021-02-03 11:10:06.820 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'messageMapper' and 'com.xxgg.blog.mapper.MessageMapper' mapperInterface
+2021-02-03 11:10:06.820 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'messageMapper'.
+2021-02-03 11:10:06.820 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'permissionMapper' and 'com.xxgg.blog.mapper.PermissionMapper' mapperInterface
+2021-02-03 11:10:06.820 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'permissionMapper'.
+2021-02-03 11:10:06.820 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'pictureMapper' and 'com.xxgg.blog.mapper.PictureMapper' mapperInterface
+2021-02-03 11:10:06.820 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'pictureMapper'.
+2021-02-03 11:10:06.820 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'programMapper' and 'com.xxgg.blog.mapper.ProgramMapper' mapperInterface
+2021-02-03 11:10:06.820 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'programMapper'.
+2021-02-03 11:10:06.820 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'roleMapper' and 'com.xxgg.blog.mapper.RoleMapper' mapperInterface
+2021-02-03 11:10:06.820 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'roleMapper'.
+2021-02-03 11:10:06.820 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'userMapper' and 'com.xxgg.blog.mapper.UserMapper' mapperInterface
+2021-02-03 11:10:06.820 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2021-02-03 11:10:06.820 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\space\java\blog-xxgg\target\classes\com\xxgg\blog\mapper\BlogMapper.class]
+2021-02-03 11:10:06.820 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\space\java\blog-xxgg\target\classes\com\xxgg\blog\mapper\BlogTypeMapper.class]
+2021-02-03 11:10:06.820 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\space\java\blog-xxgg\target\classes\com\xxgg\blog\mapper\CommentMapper.class]
+2021-02-03 11:10:06.820 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\space\java\blog-xxgg\target\classes\com\xxgg\blog\mapper\LinkMapper.class]
+2021-02-03 11:10:06.820 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\space\java\blog-xxgg\target\classes\com\xxgg\blog\mapper\LogMapper.class]
+2021-02-03 11:10:06.820 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\space\java\blog-xxgg\target\classes\com\xxgg\blog\mapper\MessageMapper.class]
+2021-02-03 11:10:06.820 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\space\java\blog-xxgg\target\classes\com\xxgg\blog\mapper\PermissionMapper.class]
+2021-02-03 11:10:06.820 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\space\java\blog-xxgg\target\classes\com\xxgg\blog\mapper\PictureMapper.class]
+2021-02-03 11:10:06.820 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\space\java\blog-xxgg\target\classes\com\xxgg\blog\mapper\ProgramMapper.class]
+2021-02-03 11:10:06.820 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\space\java\blog-xxgg\target\classes\com\xxgg\blog\mapper\RoleMapper.class]
+2021-02-03 11:10:06.820 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\space\java\blog-xxgg\target\classes\com\xxgg\blog\mapper\UserMapper.class]
+2021-02-03 11:10:07.430 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.BlogMapper.insert
+2021-02-03 11:10:07.430 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.BlogMapper.delete
+2021-02-03 11:10:07.430 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.BlogMapper.deleteByMap
+2021-02-03 11:10:07.445 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.BlogMapper.deleteById
+2021-02-03 11:10:07.445 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.BlogMapper.deleteBatchIds
+2021-02-03 11:10:07.461 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.BlogMapper.update
+2021-02-03 11:10:07.461 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.BlogMapper.updateById
+2021-02-03 11:10:07.461 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.BlogMapper.selectById
+2021-02-03 11:10:07.461 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.BlogMapper.selectBatchIds
+2021-02-03 11:10:07.461 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.BlogMapper.selectByMap
+2021-02-03 11:10:07.461 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.BlogMapper.selectOne
+2021-02-03 11:10:07.461 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.BlogMapper.selectCount
+2021-02-03 11:10:07.461 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.BlogMapper.selectMaps
+2021-02-03 11:10:07.461 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.BlogMapper.selectMapsPage
+2021-02-03 11:10:07.461 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.BlogMapper.selectObjs
+2021-02-03 11:10:07.461 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.BlogMapper.selectList
+2021-02-03 11:10:07.476 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.BlogMapper.selectPage
+2021-02-03 11:10:07.476 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.BlogTypeMapper.insert
+2021-02-03 11:10:07.476 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.BlogTypeMapper.delete
+2021-02-03 11:10:07.476 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.BlogTypeMapper.deleteByMap
+2021-02-03 11:10:07.476 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.BlogTypeMapper.deleteById
+2021-02-03 11:10:07.476 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.BlogTypeMapper.deleteBatchIds
+2021-02-03 11:10:07.476 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.BlogTypeMapper.update
+2021-02-03 11:10:07.476 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.BlogTypeMapper.updateById
+2021-02-03 11:10:07.476 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.BlogTypeMapper.selectById
+2021-02-03 11:10:07.476 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.BlogTypeMapper.selectBatchIds
+2021-02-03 11:10:07.476 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.BlogTypeMapper.selectByMap
+2021-02-03 11:10:07.476 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.BlogTypeMapper.selectOne
+2021-02-03 11:10:07.476 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.BlogTypeMapper.selectCount
+2021-02-03 11:10:07.476 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.BlogTypeMapper.selectMaps
+2021-02-03 11:10:07.476 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.BlogTypeMapper.selectMapsPage
+2021-02-03 11:10:07.492 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.BlogTypeMapper.selectObjs
+2021-02-03 11:10:07.492 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.BlogTypeMapper.selectList
+2021-02-03 11:10:07.492 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.BlogTypeMapper.selectPage
+2021-02-03 11:10:07.492 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.CommentMapper.insert
+2021-02-03 11:10:07.492 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.CommentMapper.delete
+2021-02-03 11:10:07.492 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.CommentMapper.deleteByMap
+2021-02-03 11:10:07.492 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.CommentMapper.deleteById
+2021-02-03 11:10:07.492 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.CommentMapper.deleteBatchIds
+2021-02-03 11:10:07.492 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.CommentMapper.update
+2021-02-03 11:10:07.492 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.CommentMapper.updateById
+2021-02-03 11:10:07.492 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.CommentMapper.selectById
+2021-02-03 11:10:07.492 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.CommentMapper.selectBatchIds
+2021-02-03 11:10:07.492 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.CommentMapper.selectByMap
+2021-02-03 11:10:07.492 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.CommentMapper.selectOne
+2021-02-03 11:10:07.492 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.CommentMapper.selectCount
+2021-02-03 11:10:07.492 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.CommentMapper.selectMaps
+2021-02-03 11:10:07.492 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.CommentMapper.selectMapsPage
+2021-02-03 11:10:07.492 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.CommentMapper.selectObjs
+2021-02-03 11:10:07.508 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.CommentMapper.selectList
+2021-02-03 11:10:07.508 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.CommentMapper.selectPage
+2021-02-03 11:10:07.508 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.LinkMapper.insert
+2021-02-03 11:10:07.508 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.LinkMapper.delete
+2021-02-03 11:10:07.508 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.LinkMapper.deleteByMap
+2021-02-03 11:10:07.508 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.LinkMapper.deleteById
+2021-02-03 11:10:07.508 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.LinkMapper.deleteBatchIds
+2021-02-03 11:10:07.508 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.LinkMapper.update
+2021-02-03 11:10:07.508 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.LinkMapper.updateById
+2021-02-03 11:10:07.508 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.LinkMapper.selectById
+2021-02-03 11:10:07.508 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.LinkMapper.selectBatchIds
+2021-02-03 11:10:07.508 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.LinkMapper.selectByMap
+2021-02-03 11:10:07.508 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.LinkMapper.selectOne
+2021-02-03 11:10:07.508 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.LinkMapper.selectCount
+2021-02-03 11:10:07.508 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.LinkMapper.selectMaps
+2021-02-03 11:10:07.508 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.LinkMapper.selectMapsPage
+2021-02-03 11:10:07.523 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.LinkMapper.selectObjs
+2021-02-03 11:10:07.523 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.LinkMapper.selectList
+2021-02-03 11:10:07.523 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.LinkMapper.selectPage
+2021-02-03 11:10:07.523 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.LogMapper.insert
+2021-02-03 11:10:07.523 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.LogMapper.delete
+2021-02-03 11:10:07.523 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.LogMapper.deleteByMap
+2021-02-03 11:10:07.523 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.LogMapper.deleteById
+2021-02-03 11:10:07.523 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.LogMapper.deleteBatchIds
+2021-02-03 11:10:07.523 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.LogMapper.update
+2021-02-03 11:10:07.523 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.LogMapper.updateById
+2021-02-03 11:10:07.523 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.LogMapper.selectById
+2021-02-03 11:10:07.523 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.LogMapper.selectBatchIds
+2021-02-03 11:10:07.523 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.LogMapper.selectByMap
+2021-02-03 11:10:07.523 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.LogMapper.selectOne
+2021-02-03 11:10:07.523 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.LogMapper.selectCount
+2021-02-03 11:10:07.523 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.LogMapper.selectMaps
+2021-02-03 11:10:07.523 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.LogMapper.selectMapsPage
+2021-02-03 11:10:07.523 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.LogMapper.selectObjs
+2021-02-03 11:10:07.523 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.LogMapper.selectList
+2021-02-03 11:10:07.523 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.LogMapper.selectPage
+2021-02-03 11:10:07.539 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.MessageMapper.insert
+2021-02-03 11:10:07.539 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.MessageMapper.delete
+2021-02-03 11:10:07.539 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.MessageMapper.deleteByMap
+2021-02-03 11:10:07.539 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.MessageMapper.deleteById
+2021-02-03 11:10:07.539 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.MessageMapper.deleteBatchIds
+2021-02-03 11:10:07.539 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.MessageMapper.update
+2021-02-03 11:10:07.539 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.MessageMapper.updateById
+2021-02-03 11:10:07.539 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.MessageMapper.selectById
+2021-02-03 11:10:07.539 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.MessageMapper.selectBatchIds
+2021-02-03 11:10:07.539 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.MessageMapper.selectByMap
+2021-02-03 11:10:07.539 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.MessageMapper.selectOne
+2021-02-03 11:10:07.539 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.MessageMapper.selectCount
+2021-02-03 11:10:07.539 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.MessageMapper.selectMaps
+2021-02-03 11:10:07.539 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.MessageMapper.selectMapsPage
+2021-02-03 11:10:07.539 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.MessageMapper.selectObjs
+2021-02-03 11:10:07.539 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.MessageMapper.selectList
+2021-02-03 11:10:07.539 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.MessageMapper.selectPage
+2021-02-03 11:10:07.555 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.PermissionMapper.insert
+2021-02-03 11:10:07.555 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.PermissionMapper.delete
+2021-02-03 11:10:07.555 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.PermissionMapper.deleteByMap
+2021-02-03 11:10:07.555 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.PermissionMapper.deleteById
+2021-02-03 11:10:07.555 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.PermissionMapper.deleteBatchIds
+2021-02-03 11:10:07.555 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.PermissionMapper.update
+2021-02-03 11:10:07.555 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.PermissionMapper.updateById
+2021-02-03 11:10:07.555 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.PermissionMapper.selectById
+2021-02-03 11:10:07.555 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.PermissionMapper.selectBatchIds
+2021-02-03 11:10:07.555 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.PermissionMapper.selectByMap
+2021-02-03 11:10:07.555 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.PermissionMapper.selectOne
+2021-02-03 11:10:07.555 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.PermissionMapper.selectCount
+2021-02-03 11:10:07.555 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.PermissionMapper.selectMaps
+2021-02-03 11:10:07.555 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.PermissionMapper.selectMapsPage
+2021-02-03 11:10:07.555 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.PermissionMapper.selectObjs
+2021-02-03 11:10:07.555 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.PermissionMapper.selectList
+2021-02-03 11:10:07.555 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.PermissionMapper.selectPage
+2021-02-03 11:10:07.555 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.PictureMapper.insert
+2021-02-03 11:10:07.555 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.PictureMapper.delete
+2021-02-03 11:10:07.555 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.PictureMapper.deleteByMap
+2021-02-03 11:10:07.555 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.PictureMapper.deleteById
+2021-02-03 11:10:07.555 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.PictureMapper.deleteBatchIds
+2021-02-03 11:10:07.555 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.PictureMapper.update
+2021-02-03 11:10:07.555 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.PictureMapper.updateById
+2021-02-03 11:10:07.555 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.PictureMapper.selectById
+2021-02-03 11:10:07.570 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.PictureMapper.selectBatchIds
+2021-02-03 11:10:07.570 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.PictureMapper.selectByMap
+2021-02-03 11:10:07.570 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.PictureMapper.selectOne
+2021-02-03 11:10:07.570 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.PictureMapper.selectCount
+2021-02-03 11:10:07.570 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.PictureMapper.selectMaps
+2021-02-03 11:10:07.570 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.PictureMapper.selectMapsPage
+2021-02-03 11:10:07.570 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.PictureMapper.selectObjs
+2021-02-03 11:10:07.570 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.PictureMapper.selectList
+2021-02-03 11:10:07.570 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.PictureMapper.selectPage
+2021-02-03 11:10:07.570 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.ProgramMapper.insert
+2021-02-03 11:10:07.570 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.ProgramMapper.delete
+2021-02-03 11:10:07.570 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.ProgramMapper.deleteByMap
+2021-02-03 11:10:07.570 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.ProgramMapper.deleteById
+2021-02-03 11:10:07.570 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.ProgramMapper.deleteBatchIds
+2021-02-03 11:10:07.570 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.ProgramMapper.update
+2021-02-03 11:10:07.570 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.ProgramMapper.updateById
+2021-02-03 11:10:07.570 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.ProgramMapper.selectById
+2021-02-03 11:10:07.570 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.ProgramMapper.selectBatchIds
+2021-02-03 11:10:07.570 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.ProgramMapper.selectByMap
+2021-02-03 11:10:07.570 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.ProgramMapper.selectOne
+2021-02-03 11:10:07.586 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.ProgramMapper.selectCount
+2021-02-03 11:10:07.586 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.ProgramMapper.selectMaps
+2021-02-03 11:10:07.586 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.ProgramMapper.selectMapsPage
+2021-02-03 11:10:07.586 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.ProgramMapper.selectObjs
+2021-02-03 11:10:07.586 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.ProgramMapper.selectList
+2021-02-03 11:10:07.586 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.ProgramMapper.selectPage
+2021-02-03 11:10:07.586 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.RoleMapper.insert
+2021-02-03 11:10:07.586 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.RoleMapper.delete
+2021-02-03 11:10:07.586 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.RoleMapper.deleteByMap
+2021-02-03 11:10:07.586 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.RoleMapper.deleteById
+2021-02-03 11:10:07.586 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.RoleMapper.deleteBatchIds
+2021-02-03 11:10:07.586 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.RoleMapper.update
+2021-02-03 11:10:07.586 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.RoleMapper.updateById
+2021-02-03 11:10:07.586 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.RoleMapper.selectById
+2021-02-03 11:10:07.586 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.RoleMapper.selectBatchIds
+2021-02-03 11:10:07.586 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.RoleMapper.selectByMap
+2021-02-03 11:10:07.586 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.RoleMapper.selectOne
+2021-02-03 11:10:07.586 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.RoleMapper.selectCount
+2021-02-03 11:10:07.586 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.RoleMapper.selectMaps
+2021-02-03 11:10:07.586 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.RoleMapper.selectMapsPage
+2021-02-03 11:10:07.601 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.RoleMapper.selectObjs
+2021-02-03 11:10:07.601 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.RoleMapper.selectList
+2021-02-03 11:10:07.601 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.RoleMapper.selectPage
+2021-02-03 11:10:07.601 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.UserMapper.insert
+2021-02-03 11:10:07.601 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.UserMapper.delete
+2021-02-03 11:10:07.601 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.UserMapper.deleteByMap
+2021-02-03 11:10:07.601 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.UserMapper.deleteById
+2021-02-03 11:10:07.601 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.UserMapper.deleteBatchIds
+2021-02-03 11:10:07.601 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.UserMapper.update
+2021-02-03 11:10:07.601 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.UserMapper.updateById
+2021-02-03 11:10:07.601 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.UserMapper.selectById
+2021-02-03 11:10:07.601 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.UserMapper.selectBatchIds
+2021-02-03 11:10:07.601 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.UserMapper.selectByMap
+2021-02-03 11:10:07.617 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.UserMapper.selectOne
+2021-02-03 11:10:07.617 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.UserMapper.selectCount
+2021-02-03 11:10:07.617 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.UserMapper.selectMaps
+2021-02-03 11:10:07.617 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.UserMapper.selectMapsPage
+2021-02-03 11:10:07.617 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.UserMapper.selectObjs
+2021-02-03 11:10:07.617 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.UserMapper.selectList
+2021-02-03 11:10:07.617 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xxgg.blog.mapper.UserMapper.selectPage
+2021-02-03 11:10:08.054 [main] DEBUG s.d.s.w.PropertySourcedRequestMappingHandlerMapping - initialising the handler methods
+2021-02-03 11:10:08.273 [main] DEBUG s.d.s.web.plugins.DefaultRequestHandlerCombiner - Total number of request handlers 6
+2021-02-03 11:10:08.273 [main] DEBUG s.d.s.web.plugins.DefaultRequestHandlerCombiner - Adding key: [/error], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/error], supportedMethods=[], supportedMediaTypes=[], producibleMediaTypes=[]}}
+2021-02-03 11:10:08.273 [main] DEBUG s.d.s.web.plugins.DefaultRequestHandlerCombiner - Adding key: [/error], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/error], supportedMethods=[], supportedMediaTypes=[], producibleMediaTypes=[text/html]}}
+2021-02-03 11:10:08.273 [main] DEBUG s.d.s.web.plugins.DefaultRequestHandlerCombiner - Adding key: [/swagger-resources/configuration/security], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/swagger-resources/configuration/security], supportedMethods=[], supportedMediaTypes=[], producibleMediaTypes=[]}}
+2021-02-03 11:10:08.273 [main] DEBUG s.d.s.web.plugins.DefaultRequestHandlerCombiner - Adding key: [/swagger-resources/configuration/ui], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/swagger-resources/configuration/ui], supportedMethods=[], supportedMediaTypes=[], producibleMediaTypes=[]}}
+2021-02-03 11:10:08.273 [main] DEBUG s.d.s.web.plugins.DefaultRequestHandlerCombiner - Adding key: [/swagger-resources], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/swagger-resources], supportedMethods=[], supportedMediaTypes=[], producibleMediaTypes=[]}}
+2021-02-03 11:10:08.273 [main] DEBUG s.d.s.web.plugins.DefaultRequestHandlerCombiner - Adding key: [/v2/api-docs-ext], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/v2/api-docs-ext], supportedMethods=[GET], supportedMediaTypes=[], producibleMediaTypes=[application/json, application/hal+json]}}
+2021-02-03 11:10:08.273 [main] DEBUG s.d.s.web.plugins.DefaultRequestHandlerCombiner - Combined number of request handlers 6
+2021-02-03 11:10:08.289 [main] DEBUG s.d.s.w.readers.operation.OperationModelsProvider - Adding return parameter of type Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;
+2021-02-03 11:10:08.289 [main] DEBUG s.d.s.w.readers.operation.OperationModelsProvider - Reading parameters models for handlerMethod |error|
+2021-02-03 11:10:08.289 [main] DEBUG s.d.s.w.readers.operation.OperationModelsProvider - Finished reading parameters models for handlerMethod |error|
+2021-02-03 11:10:08.289 [main] DEBUG s.d.s.r.operation.SwaggerOperationModelsProvider - Reading parameters models for handlerMethod |error|
+2021-02-03 11:10:08.289 [main] DEBUG s.documentation.schema.DefaultModelProvider - Skipping model of type Ljava/lang/Object; as its either a container type, map, enum or base type, or its already been handled
+2021-02-03 11:10:08.289 [main] DEBUG s.documentation.spring.web.scanners.ApiModelReader - Did not find any parameter models for java.util.Map<java.lang.String,java.lang.Object>
+2021-02-03 11:10:08.289 [main] DEBUG s.d.schema.DefaultModelDependencyProvider - Marking base type Ljava/lang/Object; as seen
+2021-02-03 11:10:08.304 [main] DEBUG s.d.s.w.r.operation.OperationResponseClassReader - Setting spring response class to: Map«string,object»
+2021-02-03 11:10:08.304 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:Map«string,object»
+2021-02-03 11:10:08.304 [main] DEBUG s.d.swagger.readers.operation.OperationAuthReader - Authorization count 0 for method error
+2021-02-03 11:10:08.304 [main] DEBUG s.d.s.w.r.operation.OperationResponseClassReader - Setting spring response class to: Map«string,object»
+2021-02-03 11:10:08.304 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:Map«string,object»
+2021-02-03 11:10:08.304 [main] DEBUG s.d.swagger.readers.operation.OperationAuthReader - Authorization count 0 for method error
+2021-02-03 11:10:08.304 [main] DEBUG s.d.s.w.r.operation.OperationResponseClassReader - Setting spring response class to: Map«string,object»
+2021-02-03 11:10:08.304 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:Map«string,object»
+2021-02-03 11:10:08.304 [main] DEBUG s.d.swagger.readers.operation.OperationAuthReader - Authorization count 0 for method error
+2021-02-03 11:10:08.304 [main] DEBUG s.d.s.w.r.operation.OperationResponseClassReader - Setting spring response class to: Map«string,object»
+2021-02-03 11:10:08.304 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:Map«string,object»
+2021-02-03 11:10:08.304 [main] DEBUG s.d.swagger.readers.operation.OperationAuthReader - Authorization count 0 for method error
+2021-02-03 11:10:08.304 [main] DEBUG s.d.s.w.r.operation.OperationResponseClassReader - Setting spring response class to: Map«string,object»
+2021-02-03 11:10:08.304 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:Map«string,object»
+2021-02-03 11:10:08.304 [main] DEBUG s.d.swagger.readers.operation.OperationAuthReader - Authorization count 0 for method error
+2021-02-03 11:10:08.304 [main] DEBUG s.d.s.w.r.operation.OperationResponseClassReader - Setting spring response class to: Map«string,object»
+2021-02-03 11:10:08.304 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:Map«string,object»
+2021-02-03 11:10:08.304 [main] DEBUG s.d.swagger.readers.operation.OperationAuthReader - Authorization count 0 for method error
+2021-02-03 11:10:08.304 [main] DEBUG s.d.s.w.r.operation.OperationResponseClassReader - Setting spring response class to: Map«string,object»
+2021-02-03 11:10:08.304 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:Map«string,object»
+2021-02-03 11:10:08.304 [main] DEBUG s.d.swagger.readers.operation.OperationAuthReader - Authorization count 0 for method error
+2021-02-03 11:10:08.320 [main] DEBUG s.d.s.w.r.operation.OperationResponseClassReader - Setting spring response class to: Map«string,object»
+2021-02-03 11:10:08.320 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:Map«string,object»
+2021-02-03 11:10:08.320 [main] DEBUG s.d.swagger.readers.operation.OperationAuthReader - Authorization count 0 for method error
+2021-02-03 11:10:08.320 [main] DEBUG s.d.s.w.readers.operation.OperationModelsProvider - Adding return parameter of type Lorg/springframework/web/servlet/ModelAndView;
+2021-02-03 11:10:08.320 [main] DEBUG s.d.s.w.readers.operation.OperationModelsProvider - Reading parameters models for handlerMethod |errorHtml|
+2021-02-03 11:10:08.320 [main] DEBUG s.d.s.w.readers.operation.OperationModelsProvider - Finished reading parameters models for handlerMethod |errorHtml|
+2021-02-03 11:10:08.320 [main] DEBUG s.d.s.r.operation.SwaggerOperationModelsProvider - Reading parameters models for handlerMethod |errorHtml|
+2021-02-03 11:10:08.336 [main] DEBUG s.d.s.property.OptimizedModelPropertiesProvider - Reading property view
+2021-02-03 11:10:08.336 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getView
+2021-02-03 11:10:08.336 [main] DEBUG s.d.s.p.ObjectMapperBeanPropertyNamingStrategy - Name 'view' renamed to 'view'
+2021-02-03 11:10:08.336 [main] DEBUG s.d.s.property.OptimizedModelPropertiesProvider - Adding property view to model
+2021-02-03 11:10:08.336 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getView
+2021-02-03 11:10:08.336 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getView
+2021-02-03 11:10:08.336 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getView
+2021-02-03 11:10:08.336 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getView
+2021-02-03 11:10:08.336 [main] DEBUG s.d.s.property.OptimizedModelPropertiesProvider - Reading property model
+2021-02-03 11:10:08.336 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getModel
+2021-02-03 11:10:08.336 [main] DEBUG s.d.s.p.ObjectMapperBeanPropertyNamingStrategy - Name 'model' renamed to 'model'
+2021-02-03 11:10:08.336 [main] DEBUG s.d.s.property.OptimizedModelPropertiesProvider - Adding property model to model
+2021-02-03 11:10:08.336 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getModel
+2021-02-03 11:10:08.336 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getModel
+2021-02-03 11:10:08.336 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getModel
+2021-02-03 11:10:08.336 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getModel
+2021-02-03 11:10:08.336 [main] DEBUG s.d.s.property.OptimizedModelPropertiesProvider - Reading property status
+2021-02-03 11:10:08.336 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getStatus
+2021-02-03 11:10:08.336 [main] DEBUG s.d.s.p.ObjectMapperBeanPropertyNamingStrategy - Name 'status' renamed to 'status'
+2021-02-03 11:10:08.336 [main] DEBUG s.d.s.property.OptimizedModelPropertiesProvider - Adding property status to model
+2021-02-03 11:10:08.336 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getStatus
+2021-02-03 11:10:08.336 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getStatus
+2021-02-03 11:10:08.336 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getStatus
+2021-02-03 11:10:08.336 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getStatus
+2021-02-03 11:10:08.351 [main] DEBUG s.d.s.property.OptimizedModelPropertiesProvider - Reading property empty
+2021-02-03 11:10:08.351 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member isEmpty
+2021-02-03 11:10:08.351 [main] DEBUG s.d.s.p.ObjectMapperBeanPropertyNamingStrategy - Name 'empty' renamed to 'empty'
+2021-02-03 11:10:08.351 [main] DEBUG s.d.s.property.OptimizedModelPropertiesProvider - Adding property empty to model
+2021-02-03 11:10:08.351 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member isEmpty
+2021-02-03 11:10:08.351 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member isEmpty
+2021-02-03 11:10:08.351 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member isEmpty
+2021-02-03 11:10:08.351 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member isEmpty
+2021-02-03 11:10:08.351 [main] DEBUG s.d.s.property.OptimizedModelPropertiesProvider - Reading property viewName
+2021-02-03 11:10:08.351 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getViewName
+2021-02-03 11:10:08.351 [main] DEBUG s.d.s.p.ObjectMapperBeanPropertyNamingStrategy - Name 'viewName' renamed to 'viewName'
+2021-02-03 11:10:08.351 [main] DEBUG s.d.s.property.OptimizedModelPropertiesProvider - Adding property viewName to model
+2021-02-03 11:10:08.351 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getViewName
+2021-02-03 11:10:08.351 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getViewName
+2021-02-03 11:10:08.351 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getViewName
+2021-02-03 11:10:08.351 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getViewName
+2021-02-03 11:10:08.351 [main] DEBUG s.d.s.property.OptimizedModelPropertiesProvider - Reading property modelMap
+2021-02-03 11:10:08.351 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getModelMap
+2021-02-03 11:10:08.351 [main] DEBUG s.d.s.p.ObjectMapperBeanPropertyNamingStrategy - Name 'modelMap' renamed to 'modelMap'
+2021-02-03 11:10:08.351 [main] DEBUG s.d.s.property.OptimizedModelPropertiesProvider - Adding property modelMap to model
+2021-02-03 11:10:08.351 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getModelMap
+2021-02-03 11:10:08.351 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getModelMap
+2021-02-03 11:10:08.351 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getModelMap
+2021-02-03 11:10:08.351 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getModelMap
+2021-02-03 11:10:08.351 [main] DEBUG s.d.s.property.OptimizedModelPropertiesProvider - Reading property reference
+2021-02-03 11:10:08.351 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member isReference
+2021-02-03 11:10:08.351 [main] DEBUG s.d.s.p.ObjectMapperBeanPropertyNamingStrategy - Name 'reference' renamed to 'reference'
+2021-02-03 11:10:08.351 [main] DEBUG s.d.s.property.OptimizedModelPropertiesProvider - Adding property reference to model
+2021-02-03 11:10:08.351 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member isReference
+2021-02-03 11:10:08.351 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member isReference
+2021-02-03 11:10:08.351 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member isReference
+2021-02-03 11:10:08.351 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member isReference
+2021-02-03 11:10:08.351 [main] DEBUG s.documentation.schema.DefaultModelProvider - Inferred 7 properties. Properties found empty, model, modelMap, reference, status, view, viewName
+2021-02-03 11:10:08.351 [main] DEBUG s.documentation.spring.web.scanners.ApiModelReader - Generated parameter model id: ModelAndView, name: ModelAndView, schema: {} models
+2021-02-03 11:10:08.351 [main] DEBUG s.documentation.spring.web.scanners.ApiModelReader - Adding a new model with key ModelAndView
+2021-02-03 11:10:08.351 [main] DEBUG s.d.schema.DefaultModelDependencyProvider - Adding type Lorg/springframework/ui/ModelMap; for parameter modelMap
+2021-02-03 11:10:08.351 [main] DEBUG s.d.schema.DefaultModelDependencyProvider - Recursively resolving dependencies for value type Ljava/lang/Object;
+2021-02-03 11:10:08.351 [main] DEBUG s.d.schema.DefaultModelDependencyProvider - Marking base type Ljava/lang/Object; as seen
+2021-02-03 11:10:08.351 [main] DEBUG s.d.schema.DefaultModelDependencyProvider - Adding type Lorg/springframework/web/servlet/View; for parameter view
+2021-02-03 11:10:08.351 [main] DEBUG s.d.schema.DefaultModelDependencyProvider - Recursively resolving dependencies for type Lorg/springframework/web/servlet/View;
+2021-02-03 11:10:08.351 [main] DEBUG s.d.s.property.OptimizedModelPropertiesProvider - Reading property contentType
+2021-02-03 11:10:08.351 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getContentType
+2021-02-03 11:10:08.351 [main] DEBUG s.d.s.p.ObjectMapperBeanPropertyNamingStrategy - Name 'contentType' renamed to 'contentType'
+2021-02-03 11:10:08.351 [main] DEBUG s.d.s.property.OptimizedModelPropertiesProvider - Adding property contentType to model
+2021-02-03 11:10:08.351 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getContentType
+2021-02-03 11:10:08.351 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getContentType
+2021-02-03 11:10:08.351 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getContentType
+2021-02-03 11:10:08.351 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getContentType
+2021-02-03 11:10:08.351 [main] DEBUG s.documentation.schema.DefaultModelProvider - Inferred 1 properties. Properties found contentType
+2021-02-03 11:10:08.351 [main] DEBUG s.documentation.spring.web.scanners.ApiModelReader - Adding a new model with key View
+2021-02-03 11:10:08.351 [main] DEBUG s.d.s.w.r.operation.OperationResponseClassReader - Setting spring response class to: ModelAndView
+2021-02-03 11:10:08.351 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:ModelAndView
+2021-02-03 11:10:08.351 [main] DEBUG s.d.swagger.readers.operation.OperationAuthReader - Authorization count 0 for method errorHtml
+2021-02-03 11:10:08.351 [main] DEBUG s.d.s.w.r.operation.OperationResponseClassReader - Setting spring response class to: ModelAndView
+2021-02-03 11:10:08.351 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:ModelAndView
+2021-02-03 11:10:08.351 [main] DEBUG s.d.swagger.readers.operation.OperationAuthReader - Authorization count 0 for method errorHtml
+2021-02-03 11:10:08.351 [main] DEBUG s.d.s.w.r.operation.OperationResponseClassReader - Setting spring response class to: ModelAndView
+2021-02-03 11:10:08.351 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:ModelAndView
+2021-02-03 11:10:08.351 [main] DEBUG s.d.swagger.readers.operation.OperationAuthReader - Authorization count 0 for method errorHtml
+2021-02-03 11:10:08.351 [main] DEBUG s.d.s.w.r.operation.OperationResponseClassReader - Setting spring response class to: ModelAndView
+2021-02-03 11:10:08.351 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:ModelAndView
+2021-02-03 11:10:08.351 [main] DEBUG s.d.swagger.readers.operation.OperationAuthReader - Authorization count 0 for method errorHtml
+2021-02-03 11:10:08.351 [main] DEBUG s.d.s.w.r.operation.OperationResponseClassReader - Setting spring response class to: ModelAndView
+2021-02-03 11:10:08.351 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:ModelAndView
+2021-02-03 11:10:08.351 [main] DEBUG s.d.swagger.readers.operation.OperationAuthReader - Authorization count 0 for method errorHtml
+2021-02-03 11:10:08.351 [main] DEBUG s.d.s.w.r.operation.OperationResponseClassReader - Setting spring response class to: ModelAndView
+2021-02-03 11:10:08.351 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:ModelAndView
+2021-02-03 11:10:08.351 [main] DEBUG s.d.swagger.readers.operation.OperationAuthReader - Authorization count 0 for method errorHtml
+2021-02-03 11:10:08.351 [main] DEBUG s.d.s.w.r.operation.OperationResponseClassReader - Setting spring response class to: ModelAndView
+2021-02-03 11:10:08.351 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:ModelAndView
+2021-02-03 11:10:08.351 [main] DEBUG s.d.swagger.readers.operation.OperationAuthReader - Authorization count 0 for method errorHtml
+2021-02-03 11:10:08.351 [main] DEBUG s.d.s.w.r.operation.OperationResponseClassReader - Setting spring response class to: ModelAndView
+2021-02-03 11:10:08.351 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:ModelAndView
+2021-02-03 11:10:08.351 [main] DEBUG s.d.swagger.readers.operation.OperationAuthReader - Authorization count 0 for method errorHtml

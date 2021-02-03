@@ -7,7 +7,9 @@ import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 
 @SpringBootApplication
-//扫描dao包，（如果不使用扫描包的方式，可以在dao包中的每个Mapper接口前，加上@Mapper注解）
+/**
+ * 扫描dao包，（如果不使用扫描包的方式，可以在dao包中的每个Mapper接口前，加上@Mapper注解）
+ */
 @MapperScan("com.xxgg.blog.mapper")
 public class BlogApplication extends SpringBootServletInitializer {
 
@@ -15,7 +17,11 @@ public class BlogApplication extends SpringBootServletInitializer {
 		SpringApplication.run(BlogApplication.class, args);
 	}
 
-	// 用于构建war文件并进行部署，需继承SpringBootServletInitializer类
+	/**
+	 * 用于构建war文件并进行部署，需继承SpringBootServletInitializer类
+	 * @param builder
+	 * @return
+	 */
 	@Override
 	protected SpringApplicationBuilder configure(SpringApplicationBuilder builder) {
 		return builder.sources(BlogApplication.class);
