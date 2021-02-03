@@ -2,9 +2,6 @@ spring:
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
     druid:
-      login:
-        loginUsername: xxgg
-        loginPassword: 430423
       driver-class-name: com.mysql.cj.jdbc.Driver
       url: jdbc:mysql://localhost/blog?characterEncoding=utf8&serverTimezone=GMT%2B8&useSSl=true&rewriteBatchedStatements=true
       username: root
@@ -32,4 +29,6 @@ spring:
       connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=500
       # 合并多个DruidDataSource的监控数据
       useGlobalDataSourceStat: true
-
+      login:
+        loginUsername: xxgg
+        loginPassword: 430423
