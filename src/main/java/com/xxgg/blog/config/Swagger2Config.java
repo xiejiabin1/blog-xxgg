@@ -21,9 +21,9 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
  * @create: 2020-09-28 13:26
  **/
 @Configuration
-@EnableKnife4j
 @EnableSwagger2
-@Import(value = {BeanValidatorPluginsConfiguration.class})
+@EnableKnife4j
+@Import(BeanValidatorPluginsConfiguration.class)
 public class Swagger2Config {
 
     @Bean
