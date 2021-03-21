@@ -5,6 +5,8 @@ import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableField;
 import java.io.Serializable;
+import java.util.List;
+
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
@@ -38,5 +40,8 @@ public class Role implements Serializable {
     @TableField("remark")
     private String remark;
 
-
+    /**
+     * 角色对应的权限集合
+     */
+    private List<Permission> permissions;
 }
