@@ -1,8 +1,9 @@
 server:
   port: 8080
+
 spring:
   profiles:
-    active: druid
+    active: druid,token
   # jackson时间格式化
   jackson:
     date-format: yyyy-MM-dd HH:mm:ss

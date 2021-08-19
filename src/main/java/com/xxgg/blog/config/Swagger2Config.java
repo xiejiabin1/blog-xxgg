@@ -31,7 +31,8 @@ public class Swagger2Config {
         return new Docket(DocumentationType.SWAGGER_2)
                 .apiInfo(apiInfo())
                 .select()
-                .apis(RequestHandlerSelectors.any())// 可以根据url路径设置哪些请求加入文档，忽略哪些请求
+                // 可以根据url路径设置哪些请求加入文档，忽略哪些请求
+                .apis(RequestHandlerSelectors.any())
                 .paths(PathSelectors.any())
                 .build();
     }
