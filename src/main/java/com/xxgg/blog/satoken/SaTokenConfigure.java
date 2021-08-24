@@ -1,5 +1,7 @@
 package com.xxgg.blog.satoken;
 
+import cn.dev33.satoken.router.SaRouter;
+import cn.dev33.satoken.stp.StpUtil;
 import com.xxgg.blog.result.ResultJSON;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.context.annotation.Bean;
@@ -41,7 +43,8 @@ public class SaTokenConfigure implements WebMvcConfigurer {
         		// 认证函数: 每次请求执行 
         		.setAuth(r -> {
         			log.info("---------- sa全局认证");
-                    // SaRouter.match("/test/test", () -> new Object());
+					// 登录验证 -- 拦截所有路由，并排除/user/doLogin 用于开放登录
+					//SaRouter.match("/**", "/user/doLogin", () -> StpUtil.checkLogin());
         		})
         		
         		// 异常处理函数：每次认证函数发生异常时执行此函数 
