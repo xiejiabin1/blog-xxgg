@@ -1,12 +1,8 @@
 package com.xxgg.blog.controller;
 
 
-import com.fasterxml.jackson.core.JsonProcessingException;
-import com.xxgg.blog.Result.ResultJSON;
-import com.xxgg.blog.model.po.User;
 import com.xxgg.blog.service.IUserService;
 import io.swagger.annotations.Api;
-import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import org.springframework.web.bind.annotation.RestController;

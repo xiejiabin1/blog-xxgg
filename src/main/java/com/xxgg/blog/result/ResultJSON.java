@@ -1,4 +1,4 @@
-package com.xxgg.blog.Result;
+package com.xxgg.blog.result;
 
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
@@ -27,15 +27,15 @@ public class ResultJSON<T> implements Serializable {
     @ApiModelProperty(value = "传输的数据")
     private T data;
 
-    private ResultJSON(){}
+    public ResultJSON(){}
 
-    private ResultJSON(Boolean flag, String code, String message){
+    public ResultJSON(Boolean flag, String code, String message){
         this.flag = flag;
         this.code = code;
         this.message = message;
     }
 
-    private ResultJSON(Boolean flag, String code, String message, T data){
+    public ResultJSON(Boolean flag, String code, String message, T data){
         this.flag = flag;
         this.code = code;
         this.message = message;
@@ -61,12 +61,12 @@ public class ResultJSON<T> implements Serializable {
     }
 
     /**
-     * 请求失败
+     * 请求无效
      */
     public static<T> ResultJSON<T> fail(T data){
-        return new ResultJSON<T>(ResultCodeEnum.FAIL.getFlag(),
-                ResultCodeEnum.FAIL.getCode(),
-                ResultCodeEnum.FAIL.getMessage(),data);
+        return new ResultJSON<T>(ResultCodeEnum.INVALID_REQUEST.getFlag(),
+                ResultCodeEnum.INVALID_REQUEST.getCode(),
+                ResultCodeEnum.INVALID_REQUEST.getMessage(),data);
     }
 
     /**
